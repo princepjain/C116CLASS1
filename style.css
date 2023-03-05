@@ -1,0 +1,24 @@
+h2{
+    font-size: 30px !important;
+    box-shadow: 10px 10px 10px black inset;
+}
+
+.btn-success:hover{
+background-color: red; 
+}
+
+canvas{
+    border: black;
+    border-width: 2px;
+    animation-name:viubviu; 
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    
+}
+
+@keyframes viubviu{
+    from{box-shadow: 10px 10px 50px royalblue;}
+    to{box-shadow: 10px 10px 50px indigo;}
+
+}
+
